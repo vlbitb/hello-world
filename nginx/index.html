@@ -27,7 +27,7 @@
   }
 
   function setWorld () {
-    window.fetch('/world').then(function (res) {
+    window.fetch('/vladimir').then(function (res) {
       return res.text();
     }).then(function (val) {
       const h2 = document.getElementsByTagName('h2')[0];

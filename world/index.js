@@ -7,7 +7,7 @@ const Http = require('http');
 
 const server = module.exports = Http.createServer((req, res) => {
   res.writeHead(200);
-  res.end('Vladimir');
+  res.end('World');
 });
 
 server.listen(3002, () => {
