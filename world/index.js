@@ -1,4 +1,4 @@
-\'use strict';
+'use strict';
 
 // Load modules
 
@@ -7,7 +7,7 @@ const Http = require('http');
 
 const server = module.exports = Http.createServer((req, res) => {
   res.writeHead(200);
-  res.end('World');
+  res.end('Vladimir');
 });
 
 server.listen(3002, () => {
