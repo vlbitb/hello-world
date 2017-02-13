@@ -6,7 +6,7 @@ nginx:
       - consul:consul
     restart: always
 hello:
-    build: hello/
+    build: goodbye/
     links:
       - consul:consul
 world:
